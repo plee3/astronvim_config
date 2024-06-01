@@ -9,5 +9,6 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 }
