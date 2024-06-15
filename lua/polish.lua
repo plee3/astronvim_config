@@ -7,6 +7,19 @@
 -- Set number on and relative number off
 vim.cmd "set number norelativenumber"
 
+require("oil").setup({
+  columns = { "icon" },
+  keymaps = {
+    ["<C-h>"] = false,
+    ["<C-l>"] = false,
+  },
+  view_options = {
+    show_hidden = true,
+  },
+})
+
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+
 --[[-- Original code
 -- Set up custom filetypes
 vim.filetype.add {

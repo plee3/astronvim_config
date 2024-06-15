@@ -11,4 +11,5 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+  { import = "astrocommunity.file-explorer.oil-nvim" },
 }
