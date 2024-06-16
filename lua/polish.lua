@@ -7,14 +7,22 @@
 -- Set number on and relative number off
 vim.cmd "set number norelativenumber"
 
+-- Setup oil options
 require("oil").setup({
-  columns = { "icon" },
+  columns = {
+    "icon"
+  },
   keymaps = {
     ["<C-h>"] = false,
     ["<C-l>"] = false,
   },
+  delete_to_trash = true,
+  win_options = {
+    wrap = true,
+  },
   view_options = {
     show_hidden = true,
+    natural_order = true,
   },
 })
 
