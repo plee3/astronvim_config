@@ -27,6 +27,7 @@ require("oil").setup({
 })
 
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "+", "<CMD>set ma<CR>", { desc = "Set buffer modifiable" })
 
 --[[-- Original code
 -- Set up custom filetypes
